@@ -48,7 +48,6 @@ def iniciar_interfaz_horario(navbar_root):
             dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
             for dia in dias:
                 # Agregar el encabezado del día
-                elements.append(Paragraph(f"<b>Horario del {dia}</b>", styles['h3']))
 
                 # Encabezados de la tabla
                 data = [["Hora Inicio", "Hora Fin", "Docente", "Asignatura", "Estudiante"]]
